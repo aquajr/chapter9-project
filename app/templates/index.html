@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+     <div class="row text-center">
+        <h3>Shop</h3>
+        <div class="col-md-6">
+            <img src="{{url_for('static',filename='images/watch.jpg')}}" style="width: 400px;" alt="Watch">
+            <p>
+                KES 30,000
+            </p>
+            <p>
+                Apple 
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="{{url_for('static',filename='images/macbook.jpg')}}"  style="width: 400px;" alt="Macbook">
+            <p>
+                KES 120,000
+            </p>
+            <p>
+                Macbook
+            </p>
+        </div>        
+     </div>
+{% endblock %}
